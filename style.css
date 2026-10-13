@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; padding: 24px 14px; display: flex; justify-content: center; align-items: center; font-family: Arial, sans-serif; background: #f4f4f6; color: #28282c; }
+.container { width: 100%; max-width: 450px; padding: 30px; background: #fff; border-radius: 14px; box-shadow: 0 8px 28px rgba(0,0,0,.10); }
+h1 { font-size: 23px; color: #800020; text-align: center; margin: 0 0 8px; }
+.subtitle { color: #777; text-align: center; font-size: 13px; margin: 0 0 24px; }
+label { display: block; margin: 16px 0 7px; font-size: 14px; font-weight: bold; }
+input, select { width: 100%; padding: 12px; font-size: 14px; border: 1px solid #ccc; border-radius: 7px; background: white; }
+input:focus, select:focus { outline: 2px solid #b46a7f; border-color: #800020; }
+button, .kembali { display: block; width: 100%; padding: 13px; margin-top: 23px; border: 0; border-radius: 7px; background: #800020; color: white; font-size: 15px; font-weight: bold; text-align: center; text-decoration: none; cursor: pointer; }
+button:hover, .kembali:hover { background: #620019; }
+.hasil { padding: 17px; background: #f8f8fa; border-radius: 9px; }
+.detail { display: flex; justify-content: space-between; gap: 12px; margin: 12px 0; font-size: 13px; line-height: 1.5; }
+.detail span { color: #666; }
+.detail strong { text-align: right; overflow-wrap: anywhere; }
+hr { border: 0; border-top: 1px solid #ddd; margin: 20px 0; }
+.total { background: #800020; color: white; border-radius: 8px; padding: 18px 12px; margin-top: 22px; text-align: center; }
+.total span { display: block; font-size: 13px; font-weight: bold; margin-bottom: 8px; }
+.total strong { display: block; font-size: 29px; }
+@media (max-width: 420px) { .container { padding: 22px 18px; } }
